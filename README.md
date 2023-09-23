@@ -22,3 +22,12 @@
  <h3>Procedimento 2: Alimentando a Base </h3>
  
  <hr>
+
+ <h2> :clipboard: Objetivos da Prática </h2>
+
+* Implementar persistência com base no middleware JDBC.
+* Utilizar o padrão DAO (Data Access Object) no manuseio de dados.
+* Implementar o mapeamento objeto-relacional em sistemas Java.
+* Criar sistemas cadastrais com persistência em banco relacional.
+* No final do exercício, o aluno terá criado um aplicativo cadastral com uso do SQL Server na persistência de dados.
+<hr>
