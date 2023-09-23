@@ -35,3 +35,5 @@
 <h2> Códigos </h2>
 
 [Procedimento 1: Mapeamento Objeto-Relacional e DAO](https://github.com/Gregdev22/Missao-3-Mundo-3/tree/main/Procedimento1/CadastroBD)
+<br>
+[Procedimento 2: Alimentando a Base](https://github.com/Gregdev22/Missao-3-Mundo-3/tree/main/Procedimento2/CadastroBD).
