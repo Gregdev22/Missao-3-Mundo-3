@@ -1127,4 +1127,7 @@ public class CadastroBDTeste2 {
 <img src="https://github.com/Gregdev22/Missao-3-Mundo-3/blob/main/Procedimento1/9%20proc%201.png" alt="resultado 1" width="1280" height="360">
 <br>
 
-:triangular_flag_on_post: Procedimento 2:
+:triangular_flag_on_post: Procedimento 2: https://github.com/Gregdev22/Missao-3-Mundo-3/blob/main/Procedimento2/CadastroBD/procedimento-2_1fF7rEIi.mp4
+
+https://github.com/Gregdev22/Missao-3-Mundo-3/assets/103840468/992a511c-6220-4fa1-9af5-966171cbbc7f
+
