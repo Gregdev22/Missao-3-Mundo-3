@@ -35,5 +35,201 @@
 <h2> Códigos </h2>
 
 [Procedimento 1: Mapeamento Objeto-Relacional e DAO](https://github.com/Gregdev22/Missao-3-Mundo-3/tree/main/Procedimento1/CadastroBD)
+
+* Classe Pessoa
+
+``` java
+package cadastrobd.model;
+import java.io.Serializable;
+
+
+/**
+ *
+ * @author grego
+ */
+public class Pessoa implements Serializable{
+    private int id;
+    private String nome;
+    private String logradouro;
+    private String cidade;
+    private String estado;
+    private String telefone;
+    private String email;
+
+    public Pessoa(int id, String nome, String logradouro, String cidade, String estado,
+            String telefone, String email) {
+        this.id = id;
+        this.nome = nome;
+        this.logradouro = logradouro;
+        this.cidade = cidade;
+        this.estado = estado;
+        this.telefone = telefone;
+        this.email = email;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setLogradouro(String logradouro) {
+        this.logradouro = logradouro;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getLogradouro() {
+        return logradouro;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public String getTelefone() {
+        return telefone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+    
+    public void exibir(){
+        System.out.print("id: "+this.id + "\n" + "Nome: " + this.nome + "\n" + 
+        "logradouro: "+this.logradouro+"\n"+"cidade: "+this.cidade+"\n"+
+        "estado: "+this.estado+"\n" + "telefone: " +  this.telefone + "\n"+ "email: " + this.email );
+    }
+}
+```
+* Classe PessoaFisica
+
+``` java
+package cadastrobd.model;
+import java.io.Serializable;
+
+/**
+ *
+ * @author grego
+ */
+public class PessoaFisica extends Pessoa implements Serializable {
+
+    private String cpf;
+    
+    public PessoaFisica(int id, String nome, String logradouro, String cidade, String estado,
+            String telefone, String email, String cpf){
+        super(id, nome, logradouro, cidade, estado, telefone, email);
+        this.cpf = cpf;
+    }
+
+     public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+    
+    public void exibir(){
+        System.out.print("id: "+ getId()+ "\n" + "Nome: " + getNome() + "\n" + 
+        "logradouro: "+getLogradouro()+"\n"+"cidade: "+getCidade()+"\n"+
+        "estado: "+getEstado()+"\n" + "telefone: " +  getTelefone() + "\n"+ "email: " + getEmail() + "\n"+
+        "CPF: "+this.cpf + "\n");
+    }
+}
+```
+* Classe PessoaJuridica
+
+``` java
+package cadastrobd.model;
+import java.io.Serializable;
+
+/**
+ *
+ * @author grego
+ */
+public class PessoaJuridica extends Pessoa implements Serializable{
+    
+    private String cnpj;
+    
+    public PessoaJuridica(int id, String nome, String logradouro, String cidade, String estado,
+            String telefone, String email, String cnpj){
+        super(id, nome, logradouro, cidade, estado, telefone, email);
+        this.cnpj = cnpj;
+    }
+
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+    
+    public void exibir(){
+        System.out.print("id: "+ getId()+ "\n" + "Nome: " + getNome() + "\n" + 
+        "logradouro: "+getLogradouro()+"\n"+"cidade: "+getCidade()+"\n"+
+        "estado: "+getEstado()+"\n" + "telefone: " +  getTelefone() + "\n"+ "email: " + getEmail() + "\n"+
+        "CNPJ: "+this.cnpj + "\n");
+    }
+}
+```
+* Classe ConectorBD
+  
+  ``` java
+  
+  ```
+* Classe SequenceManager
+
+``` java
+
+```
+* Classe PessoaFisicaDAO
+
+```java
+
+```
+* Classe PessoaJuridicaDAO
+
+``` java
+
+```
+* Classe CadastroBDTeste
+
+``` java
+
+```
 <br>
 [Procedimento 2: Alimentando a Base](https://github.com/Gregdev22/Missao-3-Mundo-3/tree/main/Procedimento2/CadastroBD).
+
+<hr>
+
+
