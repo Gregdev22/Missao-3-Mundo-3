@@ -705,7 +705,8 @@ public class CadastroBDTeste {
 }
 ```
 <br>
-[Procedimento 2: Alimentando a Base](https://github.com/Gregdev22/Missao-3-Mundo-3/tree/main/Procedimento2/CadastroBD).
+
+[Procedimento 2: Alimentando a Base](https://github.com/Gregdev22/Missao-3-Mundo-3/tree/main/Procedimento2/CadastroBD)
 
 <hr>
 <h1>Resultados: </h1>
