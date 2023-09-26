@@ -1167,21 +1167,24 @@ https://github.com/Gregdev22/Missao-3-Mundo-3/assets/103840468/992a511c-6220-4fa
       Quais as diferenças entre a persistência em arquivo e a persistência em banco de
 dados?
       <p> 
-        
+        Persistência em arquivo: Arquivos nada custam pois são inerentemente suportados pelo sistema operacional; arquivos não têm custo de aquisição mas têm um alto custo de manutenção; Arquivos são limitados em tamanho pelo sistema operacional; Arquivos podem ser rápidos se couberem na memória ou se forem eficientemente acessados seqüencial ou randomicamente; Arquivos de backup são necessários para recuperação de crash; Arquivos podem ser protegidos pelo sistema operacional (mas sem sofisticação).
+      </p>
+      <p> 
+         Persistência em banco de dados: Pode ser muito caro; podem armazenar gigantescas quantidades de informação; têm algoritmos e estruturas de dados especiais para lidar com grandes quantidades de dados; oferecem independência de dados de forma que o desenvolvedor pode se concentrar nos aspectos lógicos dos dados, sem preocupação imediata com detalhes de implementação física; têm lógica sofisticada para recuperação de crash; oferecem o suporte a regras de integridade (definidas pelo programador)
+Suporte a transações; oferecem linguagens de consulta para facilitar o manuseio de dados;podem implementar segurança com passwords, views, etc.
       </p>
    </li>
 
    <li>
      Como o uso de operador lambda simplificou a impressão dos valores contidos nas entidades, nas versões mais recentes do Java?
       <p> 
-         
+        É um mecanismo bastante poderoso, que facilita muito a escrita de código conciso e evita que o programador seja obrigado a escrever um monte de código “inútil”, principalmente em operações simples, além de flexibilizar o mesmo. 
       </p>
    </li>
-
    <li>
        Por que métodos acionados diretamente pelo método main, sem o uso de um objeto, precisam ser marcados como static?
       <p> 
-        
+        Porque métodos Static se refere à classe e executam quando a classe for carregada.
       </p>
    </li>
 </ul>
