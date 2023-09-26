@@ -1131,3 +1131,57 @@ public class CadastroBDTeste2 {
 
 https://github.com/Gregdev22/Missao-3-Mundo-3/assets/103840468/992a511c-6220-4fa1-9af5-966171cbbc7f
 
+<hr>
+
+<h1>Análise e Conclusão</h1>
+<ul>
+   <li>
+      Qual a importância dos componentes de middleware, como o JDBC?  
+      <p> 
+        <h4> Facilitar as estratégias de comunicação dos bancos de dados, com procedimentos de solicitação de informações e execução de atividades. </h4>         
+      </p>
+   </li>
+             
+   <li>
+      Qual a diferença no uso de Statement ou PreparedStatement para a manipulação de dados ?
+      <p> 
+         Statemente usa consultas SQL baseadas em strings, quando você pretende executar instruções SQL fixas ou seja instruções de texto puro. Já o PreparedStatement é usado quando você pretende executar instruções SQL parametrizadas e possibilita que você especifique o tipo do parâmetro passado como Int, String, Float etc. 
+      </p>
+   </li>
+   
+   <li>
+      Como o padrão DAO melhora a manutenibilidade do software? 
+      <p> 
+        Possibilidade de reutilização dos componentes e distribuição entre distintas aplicações. Possibilidade de dividir projetos grandes e complexos em projetos mais simples e atribui-los a diferentes times ou recursos garantindo a unicidade dos componentes de acesso a dados e regras de negócio. Caso você tenha uma camada DAO separada da sua camada lógica a alteração da fonte de dados se torna simplesmente uma questão de criar uma nova interface de acesso para a nova fonte, mantendo suas regras de negócio intocadas.
+      </p>
+   </li>
+   
+   <li>
+      Como a herança é refletida no banco de dados, quando lidamos com um modelo estritamente relacional? 
+      <p> 
+        A herança é refletida por meio de Identificadores em comum. Onde há uma tabela base (Pessoa) e outras derivadas (Pessoa Fisica e Pessoa Juridica).
+      </p>
+   </li>
+
+   <li>
+      Quais as diferenças entre a persistência em arquivo e a persistência em banco de
+dados?
+      <p> 
+        
+      </p>
+   </li>
+
+   <li>
+     Como o uso de operador lambda simplificou a impressão dos valores contidos nas entidades, nas versões mais recentes do Java?
+      <p> 
+         
+      </p>
+   </li>
+
+   <li>
+       Por que métodos acionados diretamente pelo método main, sem o uso de um objeto, precisam ser marcados como static?
+      <p> 
+        
+      </p>
+   </li>
+</ul>
